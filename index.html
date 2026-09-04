@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LASER SCALE TECH | Digital Scales & Electronics Sri Lanka</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <span>Email: <a href="mailto:info@laserscale.lk">info@laserscale.lk</a></span>
+      <span>Whatsapp: <a id="top-whatsapp" href="#">0705588760</a></span>
+    </div>
+  </div>
+
+  <header class="main-header">
+    <div class="container header-inner">
+      <a href="/" class="logo"><img src="assets/logo.png" alt="LASER SCALE TECH" /></a>
+      <div class="search-box">
+        <input type="text" id="search" placeholder="Search for products..." />
+        <button id="search-btn">Search</button>
+      </div>
+      <button class="cart-btn" id="cart-toggle">
+        Cart (<span id="cart-count">0</span>) <span id="cart-total">Rs 0.00</span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="category-nav">
+    <div class="container" id="category-list"></div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Industrial Scales, Electronics & Solar Solutions</h1>
+      <p>High-quality digital scales, weighing systems, and electronic components in Sri Lanka.</p>
+      <a id="hero-whatsapp" href="#" class="btn btn-large" target="_blank">Shop Now</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="section-header">
+      <h2>New Arrivals</h2>
+      <a href="#" id="view-all">View all</a>
+    </section>
+    <div id="products-grid" class="products-grid"></div>
+    <p id="empty" class="empty" style="display:none">No products yet.</p>
+  </main>
+
+  <section class="features">
+    <div class="container features-grid">
+      <div class="feature">
+        <h3>Fast Delivery</h3>
+        <p>Island-wide shipping available</p>
+      </div>
+      <div class="feature">
+        <h3>Genuine Products</h3>
+        <p>Trusted brands & warranties</p>
+      </div>
+      <div class="feature">
+        <h3>Whatsapp Orders</h3>
+        <p>Order quickly via WhatsApp</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/logo.png" alt="" class="footer-logo" />
+        <p>LASER SCALE TECH<br>Athurugiriya, Sri Lanka</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Phone: 0705588760</p>
+        <p>Email: info@laserscale.lk</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="#">Shop</a></p>
+        <p><a href="#">About Us</a></p>
+      </div>
+    </div>
+    <div class="copyright">&copy; 2026 LASER SCALE TECH. All rights reserved.</div>
+  </footer>
+
+  <div id="cart-drawer" class="drawer">
+    <div class="drawer-header">
+      <h3>Your Cart</h3>
+      <button id="cart-close" class="close">&times;</button>
+    </div>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="drawer-footer">
+      <p>Total: <strong id="drawer-total">Rs 0.00</strong></p>
+      <button id="checkout-btn" class="btn btn-large" style="width:100%">Order on WhatsApp</button>
+    </div>
+  </div>
+  <div id="overlay" class="overlay"></div>
+
+  <div id="modal" class="modal" style="display:none">
+    <div class="modal-content">
+      <button class="close" id="modal-close">&times;</button>
+      <span id="modal-badge" class="badge"></span>
+      <img id="modal-img" src="" alt="" />
+      <p id="modal-categories" class="category-tags"></p>
+      <h3 id="modal-title"></h3>
+      <p id="modal-sku" class="sku"></p>
+      <p id="modal-price" class="price"></p>
+      <p id="modal-stock"></p>
+      <p id="modal-desc"></p>
+      <div class="modal-actions">
+        <button id="modal-add" class="btn">Add to Cart</button>
+        <a id="modal-whatsapp" class="btn btn-secondary" href="#" target="_blank">Buy Now</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

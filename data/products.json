@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sample-1",
+    "name": "Digital Platform Scale 100kg",
+    "slug": "digital-platform-scale-100kg",
+    "sku": "LS-SCALE-100",
+    "badge": "Hot",
+    "category": "Scales",
+    "price": 18500,
+    "stock": 12,
+    "description": "High precision digital platform scale with stainless steel tray. Ideal for shops, warehouses and supermarkets.",
+    "image": "images/products/digital-platform-scale-100kg.jpg"
+  }
+]
